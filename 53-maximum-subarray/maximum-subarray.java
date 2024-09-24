@@ -13,6 +13,7 @@ class Solution {
             if(nums[i] > 0)
             {
                 pos = 1;
+                break;
             }
         }
         if(pos == 1)
