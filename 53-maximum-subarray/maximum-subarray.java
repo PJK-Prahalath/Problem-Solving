@@ -2,7 +2,6 @@ class Solution {
     public int maxSubArray(int[] nums) 
     {
         int n = nums.length;
-        int sum=0,max=0;
         if(n==1)
         {
             return nums[0];
@@ -18,6 +17,7 @@ class Solution {
         }
         if(pos == 1)
         {
+            int sum=0,max=0;
             for(int i=0;i<n;i++)
             {
                 sum = sum + nums[i];
