@@ -18,7 +18,7 @@ class Solution {
         {
             if(map.get(key)==1)
             {
-                return (int)key;
+                return key;
             }
         }
         return 0;
