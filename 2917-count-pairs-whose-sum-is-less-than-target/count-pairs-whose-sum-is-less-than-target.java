@@ -7,7 +7,8 @@ class Solution
         {
             for(int j=i+1;j<nums.size();j++)
             {
-                if(nums.get(i)+nums.get(j)<target)
+                int a = nums.get(i);
+                if(a+nums.get(j)<target)
                 {
                     c++;
                 }
