@@ -1,19 +1,16 @@
-class Solution 
-{
-    public int countPairs(List<Integer> nums, int target) 
-    {
-        int c=0;
-        for(int i=0;i<nums.size();i++)
+class Solution {
+    public int countPairs(List<Integer> nums, int target) {
+        int n=nums.size();
+        int count=0;
+        for(int i=0;i<n;i++)
         {
-            for(int j=i+1;j<nums.size();j++)
+            int a=nums.get(i);
+            for(int j=i+1;j<n;j++)
             {
-                int a = nums.get(i);
                 if(a+nums.get(j)<target)
-                {
-                    c++;
-                }
+                    count++;
             }
         }
-        return c;
+        return count;
     }
 }
