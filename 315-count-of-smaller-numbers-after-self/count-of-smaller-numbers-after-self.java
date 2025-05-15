@@ -104,5 +104,3 @@ class Solution {
     }
 }
 
-
-//https://leetcode.com/problems/count-of-smaller-numbers-after-self/solutions/2320300/mergesort-technique-count-inversion-based-explanation/
